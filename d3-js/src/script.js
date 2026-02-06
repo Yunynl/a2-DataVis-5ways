@@ -23,7 +23,7 @@ const svg = d3.select("#vis")
 
 const tooltip = d3.select("#tooltip");
 
-d3.csv("/../penglings.csv").then(raw_data => {
+d3.csv("../penglings.csv").then(raw_data => {
     const data = raw_data
         .filter(d => d.flipper_length_mm !== "NA" && d.body_mass_g !== "NA")
         .map(d => {
