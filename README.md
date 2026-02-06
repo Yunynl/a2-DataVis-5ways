@@ -18,6 +18,9 @@ After using Python and R, DataWrapper feels incredibly easy to use. I simply upl
 ![DataWrapper Plot](img/datawrapper.png)
 
 ## d3js
+
+https://yunynl.github.io/a2-DataVis-5ways/d3-js/src/index.html
+
 D3 is the most complex part of this project. Unlike other tools, I had to build every element from scratch. I used a CONFIG object to manage my dimensions and colors globally, which made tweaking the layout much easier. I implemented a custom sidebar legend in HTML/CSS.I added a transition effect so that when you hover over a penguin, the dot grows in size and the border darkens, while a fixed tooltip follows your cursor exactly.
 ![d3js](img/d3.png)
 
